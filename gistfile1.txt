@@ -1,0 +1,48 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Pxd Hub", "GrapeTheme")
+
+local Tab = Window:NewTab("Main Manu")
+local Section = Tab:NewSection("Hack Hub")
+
+Section:NewButton("BloxFruit ", "Center", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Achitsak/CENTER-HUB/main/Blox%20Fruits"))()
+
+end)
+
+Section:NewButton("Asenal ", "Owl", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+
+
+end)
+
+Section:NewButton("Ro-Goul ", "No name", function()
+   loadstring(game:HttpGet(("https://aizen.ml/weis/RoGhoul.lua")))()
+
+
+end)
+
+Section:NewButton("BedWarl ", "No name", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/SlaveDash/Crokuranu/main/Bedwars%20UI%20Source%20Code'))()
+
+
+end)
+
+local Tab = Window:NewTab("Main Manu")
+local Section = Tab:NewSection("Discord")
+
+Section:NewButton("Discord link ", "PxD", function()
+    Section:NewButton("BloxFruit ", "Center", function()
+        print("https://discord.gg/8g98GsafWA")
+     
+
+
+
+
+
+
+
+
+
+
+
+
